@@ -1,0 +1,103 @@
+
+// NAVBAR SECTION
+.main-nav {
+    position: relative;
+    background-image: url(/images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 80vh;
+    min-height: 600px;
+    padding: 2rem;
+
+    .header-title {
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        text-align: center;
+        color: #fff;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        padding-top: 8rem;
+        letter-spacing: 8px;
+    }
+
+    &__arrow-down {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.top-nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 1.8rem;
+}
+
+.menu-header {
+    display: none;
+    // color: #fff;
+
+    a {
+        color: #fff;
+    }
+
+    span {
+        margin-right: 2rem;
+    }
+
+}
+
+.contact-button {
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    font-family: 'Fraunces', serif;
+    // cursor: pointer;
+}
+
+.contact-button a {
+    color: black;
+}
+
+.menu-icon {
+    display: flex;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+// DESKTOP STYLES
+@media screen and (min-width: 621px){
+// NAV 
+    .main-nav {
+        background-image: url(/images/desktop/image-header.jpg);
+        height: 100vh;
+
+        .header-title {
+            padding-top: 6rem;
+            font-size: 3.5rem;
+        }
+
+        &__arrow-down {
+            top: 50%;
+        }
+    }
+    .menu-icon {
+        display: none;
+    }
+    .menu-header {
+        display: flex;
+        align-items: center;
+    }
+
+}
