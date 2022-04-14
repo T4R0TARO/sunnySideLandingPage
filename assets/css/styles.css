@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.main-nav {
+  position: relative;
+  background-image: url(/images/mobile/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 80vh;
+  min-height: 600px;
+  padding: 2rem;
+}
+.main-nav .header-title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding-top: 8rem;
+  letter-spacing: 8px;
+}
+.main-nav__arrow-down {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 1.8rem;
+}
+
+.menu-header {
+  display: none;
+}
+.menu-header a {
+  color: #fff;
+}
+.menu-header span {
+  margin-right: 2rem;
+}
+
+.contact-button {
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  background: #fff;
+  border: none;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+}
+
+.contact-button a {
+  color: black;
+}
+
+.menu-icon {
+  display: flex;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 621px) {
+  .main-nav {
+    background-image: url(/images/desktop/image-header.jpg);
+    height: 100vh;
+  }
+  .main-nav .header-title {
+    padding-top: 6rem;
+    font-size: 3.5rem;
+  }
+  .main-nav__arrow-down {
+    top: 50%;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-header {
+    display: flex;
+    align-items: center;
+  }
+}
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+
+.grid-item {
+  position: relative;
+  text-align: center;
+}
+.grid-item h2 {
+  font-size: 2.5rem;
+  font-family: "Fraunces", serif;
+  margin-bottom: 2.5rem;
+}
+.grid-item p {
+  margin-bottom: 2.5rem;
+  font-size: 18px;
+  line-height: 1.8rem;
+  font-weight: 300;
+  color: hsl(210deg, 4%, 67%);
+}
+.grid-item span {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+}
+
+.grid-item-1 {
+  background-image: url(/images/mobile/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 50rem;
+  height: 70vh;
+}
+
+.grid-item-2 {
+  padding: 4rem 2rem 4rem 2rem;
+}
+.grid-item-2 .border-line {
+  border-radius: 10px;
+  height: 10px;
+  width: 8rem;
+  background: hsla(51deg, 100%, 49%, 0.2);
+}
+
+@media screen and (min-width: 628px) {
+  .grid-item-1 {
+    background-image: url(/images/desktop/image-transform.jpg);
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

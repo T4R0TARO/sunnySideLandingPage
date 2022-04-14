@@ -1,0 +1,33 @@
+{
+  "name": "sunnyside-agency-landing-page-main",
+  "version": "1.0.0",
+  "description": "frontend mentor proj",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T4R0TARO/sunnySideLandingPage.git"
+  },
+  "keywords": [
+    "frontendmentor",
+    "sunny",
+    "landing-page",
+    "project"
+  ],
+  "author": "Joshua Manansala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T4R0TARO/sunnySideLandingPage/issues"
+  },
+  "homepage": "https://github.com/T4R0TARO/sunnySideLandingPage#readme",
+  "devDependencies": {
+    "sass": "^1.50.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0"
+  }
+}
