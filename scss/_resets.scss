@@ -1,15 +1,49 @@
+@use './variables' as *;
 
-* {
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
+*, *::before, *::after {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,.btn,.about-link {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  font: inherit;
 }
 
-body {
-    font-family: 'Barlow', sans-serif;
-    // font-family: 'Fraunces', serif;
+ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  font: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+span, img, i {
+  display: block;
+}
+
+// MAIN CONTAINER
+
+.container {
+  background: $snow;
+  width: 100%;
+  // min-height: 100vh;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
 }

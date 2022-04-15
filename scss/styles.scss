@@ -1,7 +1,10 @@
 @use './resets';
-@use './sections/navbar'; 
-@use './sections/grid-images';
+@use './variables';
 
+// IMPORT SECTIONS
+@use './sections/navbar'; 
+@use './sections/hero-banner';
+@use './sections/about';
 
 
 
