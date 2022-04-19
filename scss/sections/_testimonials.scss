@@ -1,0 +1,58 @@
+@use '../variables' as *;
+
+// TESTIMONIALS SECTIONS
+.testimonials {
+  padding: 65px 25px;
+}
+
+.testimonials-h2 {
+  color: $grayish-blue;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 80px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+}
+
+.testimonials-client {
+  text-align: center;
+}
+
+.client-img-box {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.client-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.client-text {
+  max-width: 350px; 
+  color: $very-dark-grayish-blue;
+  line-height: 1.8;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.client-name {
+  color: $very-dark-desaturated-blue;
+  margin-bottom: 14px;
+}
+
+.client-title {
+  color: $grayish-blue;
+  font-size: 14px;
+}
