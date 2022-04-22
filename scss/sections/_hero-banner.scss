@@ -48,3 +48,36 @@
 
   25% {transform: translateY(10px);}
 }
+
+
+// HOME SECTION MEDIA QUIRIES
+// LARGE MOBILE
+@media (min-width: 550px){
+  .home {
+      height: 700px;
+  }
+}
+
+// FOR TABLET
+@media (min-width: 768px){
+  .home {
+    height: 800px;
+  }
+
+  .main-heading {
+    font-size: 50px;
+  }
+}
+
+// FOR DESKTOP
+@media (min-width: 1024px){
+  .home-absolute-content {
+    transform: translateY(calc(-50% + -65px));
+  }
+
+  .main-heading {
+    font-size: 55px;
+    letter-spacing: 9px;
+    margin-bottom: 95px;
+  }
+}

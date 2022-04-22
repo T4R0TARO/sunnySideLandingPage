@@ -53,3 +53,10 @@
 .service-p.blue {
   color: $dark-blue;
 }
+
+// FOR TABLET
+@media (min-width: 768px){
+    .services {
+      grid-template-columns: 1fr 1fr;
+    }
+}

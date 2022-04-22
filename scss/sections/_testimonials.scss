@@ -56,3 +56,40 @@
   color: $grayish-blue;
   font-size: 14px;
 }
+
+// TESTIMONIALS  MEDIA QUIRIES
+// LARGE MOBILE
+@media (min-width: 550px){
+  .testimonials {
+    padding: 150px 25px;
+  }
+
+  .testimonials-h2 {
+    font-size: 18px;
+  }
+}
+
+
+// FOR DESKTOP
+@media (min-width: 1024px){
+  .testimonials {
+    padding: 160px 40px;
+  }
+
+  .testimonials-h2 {
+    font-size: 20px;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .client-img-box {
+    margin-bottom: 60px;
+  }
+
+  .client-text {
+    margin-bottom: 70px;
+  }
+}
