@@ -1,0 +1,49 @@
+@use '../variables' as *;
+
+footer {
+    background: $light-cyan;
+    padding: 70px 30px;
+}
+
+.footer-brand {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-brand svg {
+    transform: scale(1.4);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin-bottom: 90px;
+
+    a {
+        color: $dark-moderate-cyan;
+        transition: $default-transition;
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    a {
+        i{
+            color: hsl(166, 45%, 32%);
+            font-size: 23px;
+            transition: $default-transition;
+        }
+    }
+}
+
+
+.footer-nav a:hover,
+.social-links i:hover {
+    color: $white;
+}

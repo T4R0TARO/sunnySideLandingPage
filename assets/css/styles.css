@@ -324,4 +324,58 @@ header {
   font-size: 14px;
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projects-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  background: hsl(167deg, 44%, 70%);
+  padding: 70px 30px;
+}
+
+.footer-brand {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-brand svg {
+  transform: scale(1.4);
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  margin-bottom: 90px;
+}
+.footer-nav a {
+  color: hsl(168deg, 34%, 41%);
+  transition: 0.25s ease;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.social-links a i {
+  color: hsl(166deg, 45%, 32%);
+  font-size: 23px;
+  transition: 0.25s ease;
+}
+
+.footer-nav a:hover,
+.social-links i:hover {
+  color: hsl(0deg, 0%, 100%);
+}
+
 /*# sourceMappingURL=styles.css.map */
