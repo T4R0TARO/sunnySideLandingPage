@@ -52,7 +52,7 @@
   border-radius: 10px;
   opacity: 0.3;
   z-index: -1;
-  // transition: ;
+  transition: $default-transition;
 }
 
 .about-link:hover::after {
@@ -61,4 +61,52 @@
 
 .pink::after {
   background: $soft-red;
+}
+
+//  ABOUT SECTION MEDIA QUIRIES
+// LARGE PHONES
+@media (min-width: 550px){
+  .about__img-box {
+    height: 450px;
+    overflow: hidden;
+  }
+}
+
+// FOR TABLET
+@media (min-width: 768px){
+  .about {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-pos-lg {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .about__img-box {
+    height: auto;
+  }
+
+  .about__content {
+    padding: 60px;
+    text-align: left;
+  }
+
+  .about-link {
+    margin-left: 10px;
+  }
+}
+
+// FOR DESKTOP
+@media (min-width: 1024px){
+  .about__content {
+    max-width: unset;
+    padding: 155px 130px;
+  }
+  .about__h2 {
+    font-size: 40px;
+  }
+  .about__p {
+    margin-bottom: 40px;
+  }
 }
