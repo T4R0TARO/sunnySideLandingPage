@@ -4,6 +4,7 @@
 const nav = document.querySelector(".navbar__nav");
 const navToggleBtn = document.querySelector(".nav-toggle-btn");
 const navLinks = document.querySelectorAll(".nav-links");
+const main  = document.querySelector("main");
 
 //NAV BAR TOGGLE FUNCTION 
 const navToggleFunc = function(){
@@ -13,17 +14,15 @@ const navToggleFunc = function(){
 
 navToggleBtn.addEventListener('click', navToggleFunc);
 
+// CLICK OUT OF NAV/ CLOSE NAV
+const outsideDivClose = function(){
+    if(nav.classList.contains('active')){
+        nav.classList.remove('active')
+    }
+    console.log(nav.classList)
+}
 
-
-// TODO: If clicked outside nav, close nav
-
-// const outsideDivClose = function(){
-//     if( nav.classList ===  'active'){
-//         nav.classList.remove('active');
-//     }
-// }
-
-// document.addEventListener('click', outsideDivClose);
+main.addEventListener('click', outsideDivClose);
 
 
 // for(let i = 0; i < navLinks.length; i++){
