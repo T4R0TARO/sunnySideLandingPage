@@ -7,7 +7,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -26,7 +25,12 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+DESKTOP:
+![image](https://user-images.githubusercontent.com/76195521/167039789-35d8663b-9a04-42ea-8a33-c76689fb5dc4.png)
+MOBILE:
+![image](https://user-images.githubusercontent.com/76195521/167040094-21a3c99b-1808-4d6f-aa1d-bf45de2c9d5f.png)
+MOBILE/MENU:
+![image](https://user-images.githubusercontent.com/76195521/167040402-e24ebe44-e82c-4c92-99d0-41f271989af6.png)
 
 ### Links
 
@@ -34,7 +38,7 @@ Users should be able to:
 - Live Site URL: [Git Pages](https://t4r0taro.github.io/sunnySideLandingPage/)
 
 ## My process
-
+Usually I start off by completing the HTML Layout then move on to the styles. I approached this project by section, started with a section of HTML then style that section and move on to the next section. Responsive styles were implemented at the end.
 ### Built with
 
 - Semantic HTML5 markup
@@ -88,12 +92,12 @@ Users should be able to:
 }
 
 ```
+@keyframes: controls the intermediate steps in a CSS animation
+The percentage represents the time through the aniamtion sequence when the 
+
+specified keyframes should occur
 
 css animation moves img transform:translateY to move it vertically 
-
-
-### Continued development
-
 
 ## Author
 
