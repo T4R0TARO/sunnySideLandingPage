@@ -93,8 +93,7 @@ Usually I start off by completing the HTML Layout then move on to the styles. I 
 
 ```
 @keyframes: controls the intermediate steps in a CSS animation
-The percentage represents the time through the aniamtion sequence when the 
-
+The percentage represents the time through the animation sequence when the 
 specified keyframes should occur
 
 css animation moves img transform:translateY to move it vertically 
